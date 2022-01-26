@@ -1,0 +1,131 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+  ul.menu li {
+    padding: 2px 15px;
+  }
+
+  ul.menu li a {
+    font-size: 17px;
+  }
+
+  .hero-banner-sec {
+    background-size: cover;
+    height: 450px;
+  }
+
+  .hero-banner-text-sec {
+    padding: 10px 0px;
+  }
+
+  .banner-sec-text {
+    padding: 0px 0px;
+  }
+
+  .custom-margin {
+    padding: 0px 0px;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+
+  .logo-area {
+    text-align: center;
+  }
+
+  .logo-area a img {
+    width: 60%;
+  }
+
+  .menu-area {
+    text-align: center;
+  }
+
+  ul.menu li {
+    padding: 6px 15px;
+    display: block;
+    margin-bottom: 2px;
+    background-color: #b3541e;
+  }
+
+  ul.menu {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  ul.menu li a {
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-banner-sec {
+    height: 200px;
+    background-size: cover;
+  }
+
+  button.btn-1 {
+    margin-bottom: 20px;
+  }
+
+  .banner-sec-text {
+    padding: 0px 0px;
+  }
+
+  .custom-margin {
+    padding: 0px 0px;
+  }
+
+  .blog-sec {
+    padding: 10px 0px;
+  }
+
+  .hero-banner-text-sec {
+    padding: 10px 0px;
+  }
+}
